@@ -123,6 +123,10 @@ img{
 @media(max-width:900px){
     #main{
         flex-direction: column;
+        margin:20px;
     }
-    
+    .attribution{
+        display: flex;
+        flex-direction: column;
+    }
 }
