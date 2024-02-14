@@ -131,4 +131,7 @@ img{
         display: flex;
         flex-direction: column;
     }
+    #blue{
+        width: 100%;
+    }
 }
