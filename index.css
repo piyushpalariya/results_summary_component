@@ -107,3 +107,7 @@ button{
     font-size: 20px;
     color: hsl(241, 100%, 89%);
 }
+
+img{
+    margin-right: 5px;
+}
