@@ -21,6 +21,7 @@ body{
     align-items: center;
     border-radius: 25px;
     padding: 20px;
+    width: 50%;
 }
 
 #white{
@@ -50,8 +51,8 @@ body{
 }
 
 #sc{
-    margin-right: 5px;
     margin-left: 30px;
+    color: hsl(224, 30%, 27%);
 }
 #Reaction{
     background-color: hsl(0, 100%, 67%,20%);
@@ -76,8 +77,10 @@ body{
 .score{
     border-radius: 10px;
     display: flex;
-    margin: 10px;
-    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 5px;
 }
 
 button{
@@ -85,13 +88,11 @@ button{
     padding: 10px ;
     background-color: hsl(224, 30%, 27%);
     color: white;
+    margin-top: 20px;
 }
 
 button:hover{
     background-color: hsl(234, 85%, 45%);
-}
-.num{
-    color: hsl(224, 30%, 27%);
 }
 
 #para{
@@ -103,6 +104,7 @@ button:hover{
 #summary{
     color: hsl(224, 30%, 27%);
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #great{
