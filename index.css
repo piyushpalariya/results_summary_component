@@ -118,3 +118,10 @@ button:hover{
 img{
     margin-right: 5px;
 }
+
+
+@media(max-width:780px){
+    #main{
+        flex-direction: column;
+    }
+}
