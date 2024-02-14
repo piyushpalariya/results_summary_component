@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+#main{
+    display: flex;
+    margin-bottom: 300px;
+    border-bottom: 2px solid hsl(224, 30%, 27%);
+    border-right: 2px solid hsl(224, 30%, 27%);
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+#blue{
+    background-color: hsl(241, 81%, 54%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#white{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#circle{
+    background-color: hsl(252, 100%, 67%);
+    padding: 30px 50px;
+    border-radius: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#seven{
+    color: white;
+    font-size: 50px;
+}
+
+#hundred{
+    color: hsl(241, 100%, 89%);
+}
+
+#Reaction{
+    background-color: hsl(0, 100%, 67%,20%);
+    color: hsl(0, 100%, 67%);
+}
+
+#Memory{
+    background-color: hsl(39, 100%, 56%,20%);
+    color:hsl(39, 100%, 56%);
+}
+
+#Verbal{
+    background-color: hsl(166, 100%, 37%,20%);
+    color: hsl(166, 100%, 37%);
+}
+
+#Visual{
+    background-color: hsl(234, 85%, 45%,20%);
+    color: hsl(234, 85%, 45%);
+}
+
+.score{
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 10px 25px;
+}
+
+button{
+    border-radius: 25px;
+    padding: 10px ;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+.num{
+    color: hsl(224, 30%, 27%);
+    margin-left: 30px;
+}
+
+#para{
+    max-width: 200px;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+#summary{
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+}
+
+#great{
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+}
+#Result{
+    font-size: 20px;
+    color: hsl(241, 100%, 89%);
+}
