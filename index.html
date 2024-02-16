@@ -5,50 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="index.css"> 
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-      <div id="main">
-        <div id="blue">
-          <div id="Result">Your Result</div>    
-          <div id="circle">
-            <div id="seven"><b>76</b></div>
-            <div id="hundred">of 100</div>
-          </div>
-          <div id="great">Great</div>
-          <div id="para">You scored higher than 65% of the people who have taken these tests.</div>
-        </div>
-        <div id="white">
-          <div id="summary"><b>Summary</b></div>
-          <div class="score" id="Reaction">
-            <img src="/assets/images/icon-reaction.svg" alt="icon-reaction" type="image/svg+xml svg">
-            <div>Reaction</div>
-            <div id="sc"><b>80</b>/100 </div>
-          </div>
-          <div class="score" id="Memory">
-            <img src="/assets/images/icon-memory.svg" alt="icon-memory" type="image/svg+xml svg">
-            <div>Memory</div>
-            <div id="sc" ><b>92</b>/100 </div>
-          </div>
-          <div class="score" id="Verbal">
-            <img src="/assets/images/icon-verbal.svg" alt="icon-verbal" type="image/svg+xml svg">
-            <div>Verbal</div>
-            <div id="sc"><b>61</b>/100</div>
-          </div>
-          <div class="score" id="Visual">
-            <img src="/assets/images/icon-visual.svg" alt="icon-visual" type="image/svg+xml svg">
-            <div>Visual</div>
-            <div id="sc"><b>72</b>/100</div>
-          </div>
-          <button id="Continue">Continue</button>
+  <div id="card">
+    <div id="blue-part">
+      <div id="heading2">Your Result  </div>
+      <div id="circle">
+        <div>
+          <h1>76</h1>
+          <div id="hun">of 100</div>
         </div>
       </div>
-      <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">piyush palariya</a>.
+      <div id="heading3">Great</div>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div id="white-part">
+      <div id="heading">Summary</div>
+      <div class="scores Reaction">
+        <div class="score_name ">
+          <img src="/assets/images/icon-reaction.svg" alt="icon-reaction" type="image/svg+xml svg">
+          <div>Reaction</div>
+        </div>
+        <div><span class="score">80</span><span class="total_value">/100</span></div>
+      </div>
+      <div class="scores Memory">
+        <div class="score_name">
+          <img src="/assets/images/icon-memory.svg" alt="icon-memory" type="image/svg+xml svg">
+        <div>Memory</div>
+        </div>
+        <div><span class="score">92</span><span class="total_value">/100</span></div>
+      </div>
+      <div class="scores Verbal">
+        <div class="score_name">
+          <img src="/assets/images/icon-verbal.svg" alt="icon-verbal" type="image/svg+xml svg">
+          <div>Verbal</div>
+        </div>
+        <div ><span class="score">61</span><span class="total_value">/100</span></div>
+      </div>
+      <div class="scores Visual">
+        <div class="score_name">
+          <img src="/assets/images/icon-visual.svg" alt="icon-visual" type="image/svg+xml svg">
+          <div>Visual</div>
+        </div>
+        <div><span class="score">72</span><span class="total_value">/100</span></div>
+      </div>
+      <button id="Continue">Continue</button>
+    </div>
   </div>
-
-  <link rel="stylesheet" href="index.css">
+  <footer class="attribution">
+    <div>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></div>
+    <div>Coded by <a href="#">piyush palariya</a></div>
+  </footer>
 </body>
 </html>
