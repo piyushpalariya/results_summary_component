@@ -107,6 +107,7 @@ button{
     padding: 5px 0px;
     background-color: hsl(224, 30%, 27%);
     color: white;
+    cursor: pointer;
 }
 
 .Reaction{
@@ -143,6 +144,9 @@ img{
     font-weight: bold;
 }
 
+button:hover{
+    color: hsl(234, 85%, 45%);
+}
 @media (max-width:800px){
     #card{
         flex-direction: column;
